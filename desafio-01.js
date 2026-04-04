@@ -1,3 +1,24 @@
+/*
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
+
+while(true){
+
+}
+*/
+
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('What is your name? ', (answer) => {
+    console.log(`Thank you for your valuable feedback: ${answer}`);
+    readline.close();
+});
+
 let nome = "Iron Man"; // Nomme do herói
 let xp = 7500; // Pontos de experiência
 let nivel; // Nível do herói

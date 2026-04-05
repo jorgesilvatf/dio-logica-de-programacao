@@ -3,10 +3,12 @@
 // Laços de repetição
 // Estruturas de decisões
 
+// Entrada de Dados
 let nome = "Batman"; // Nomme do herói
 let xp = 7500; // Pontos de experiência
 let nivel; // Nível do herói
 
+// Cálculo do Nível
 if (xp < 1000) {
     nivel = 'Ferro';
 } else if (xp <= 2000) {
@@ -25,4 +27,5 @@ if (xp < 1000) {
     nivel = 'Radiante';
 }
 
+// Saída de Dados
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
